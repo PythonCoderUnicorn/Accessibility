@@ -179,6 +179,18 @@ provide help link on every web page
 
 
 
+# Principle 4 - Robust
+
+Content must be robust enough that it can be interpreted by a wide variety of user agents, including assistive technologies.
+
+## Guideline 4.1 - Compatible
+
+Maximize compatibility with current and future user agents, including assistive technologies.
+
+- parsing, content that uses Markup Languages have elements that have start and end tags and do not contain duplicates
+- use the ARIA for labels and names to content and controls, visiable and not visible
+- provide status message as to assist the user, provide text descriptions
+
 
 
 
