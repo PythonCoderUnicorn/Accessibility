@@ -153,7 +153,7 @@ Make text content readable and understandable.
 
 ## Guideline 3.2 - Predictable
 
-Make your content predictable without any suprises. 
+Make your content predictable without any surprises. 
 
 - have an input button with select element
 - provide submit buttons with form action in PDF forms
