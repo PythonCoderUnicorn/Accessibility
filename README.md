@@ -124,6 +124,32 @@ Provide ways to help users navigate, find content, and determine where they are.
 
 
 
+## Guideline 2.5 - Input Modalities
+
+Make it easier for users to operate functionality through various inputs beyond keyboard.
+
+- pointer gestures (do not rely on path-based gestures)
+- pointer cancellation : no down event, abort or undo, up reversal. Allow drag & drop actions to be cancelled
+- properly use the name in the label and text in label or image text
+- target size for pointer input is at least 44px in CSS
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
