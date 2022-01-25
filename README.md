@@ -136,6 +136,47 @@ Make it easier for users to operate functionality through various inputs beyond 
 
 
 
+## Principle 3 - Understandable
+
+Information and the operation of the user interface must be understandable.
+
+## Guideline 3.1 - readable
+
+Make text content readable and understandable.
+
+- properly use human language on the page
+- provide definitions of words or phrases in a glossary with link element 
+- provide the expansion or explanation of an abbreviation
+- text should be at lower secondary education level when not technical
+- pronunciation of a word in text and/or in audio format
+
+
+## Guideline 3.2 - Predictable
+
+Make your content predictable without any suprises. 
+
+- have an input button with select element
+- provide submit buttons with form action in PDF forms
+- describe what will happen before a change will take place
+- have consistent navigation
+- have consistent web page elements and functions identified
+- provide an update action call instead of automatic updating
+
+
+## Guideline 3.3 - Input Assistance
+
+Help users avoid and correct mistakes.
+
+- provide error identification, text descriptions to identify required fields
+- use ARIA invalid to indicate error field
+- labels or instructions provided when content requires user input, using ARIA for descriptions (*easy win!*)
+- provide text descriptions to identify errors, error suggestion, input error 
+- for legal or financial information, provide reversible submisison, the user input is checked for input errors and confirm information before submission
+
+provide help link on every web page
+
+
+
 
 
 
