@@ -136,7 +136,7 @@ Make it easier for users to operate functionality through various inputs beyond 
 
 
 
-## Principle 3 - Understandable
+# Principle 3 - Understandable
 
 Information and the operation of the user interface must be understandable.
 
