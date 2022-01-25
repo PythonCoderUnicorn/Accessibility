@@ -75,6 +75,32 @@ Make it easier for users to see and hear content including separating foreground
 
 
 
+# Principle 2
+
+User interface components and navigation must be operable.
+
+## Guideline 2.1 - Keyboard Accessible
+
+make all functionality available from a keyboard (mouse input in addition) and ***avoid making a keyboard trap*** where the user cannot escape the interface with a keyboard.
+
+- turn off or allow user to turn off keyboard shortcuts
+
+## Guideline 2.2 - Enough time
+
+Provide users enough time to read and use content
+
+- allow user to turn off time limit before encountering it or allow adjustment with extending the expiration time. A time limit longer than 20 hours. 
+
+- pause, stop, auto-updating & hide information. Give the suer enough time to interact with content by pausing and stopping information. Flash and animations should be limited in use.
+
+- no timing (*easy win!*), timing is not essential to the event or activity
+
+- interruptions should be suppressed/ postponed by the user (except for emergencies)
+
+- re-authenticating, when session expires and user does not lose information or data after authentication
+
+- timeouts (*easy win*), warn users of the duration of any inactivity that could cause the loss of data or information
+
 
 
 
