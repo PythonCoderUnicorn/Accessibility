@@ -103,6 +103,25 @@ Provide users enough time to read and use content
 
 
 
+## Guideline 2.3 - Flashes & Seizures
+
+try to avoid web content that flashes more than 3 times.
+
+
+
+## Guideline 2.4 - Navigable 
+
+Provide ways to help users navigate, find content, and determine where they are.
+
+- provide bypass blocks or skip buttons 
+- have a page titled that describes topic or purpose (*easy win!*)
+- have content in a logical flow and focused manner
+- provide link text that describes purpose of link or elements
+- provide more than one link
+- headings and labels that describe topic or purpose (*easy win!*)
+- provide HTML breadcrumbs so the user knows where they are located on content
+- section headings, use section heading to organize content
+
 
 
 
