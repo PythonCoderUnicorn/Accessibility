@@ -15,7 +15,7 @@ Accessibility is to ensure a positive user experience (UX) for people without an
 
 
 
----
+### Read the WCAG Quick Guide in the WCAG folder
 
 
 
