@@ -18,10 +18,36 @@ Accessibility is to ensure a positive user experience (UX) for people without an
 ### Read the WCAG Quick Guide in the WCAG folder
 
 
+---
+
+#  Accessibility Data Visualization
+
+This information is from **Sylvia Canelón and Liz Hare** 2021 Conference slides [link](https://github.com/spcanelon/csvConf2021)
+
+- science communication
+- election maps
+- ebooks alt-text
+- R pkg documentation
+- R blogs
+
+screen readers read text not images
+
+good alt-text:
+
+- description of the data
+- variables included on the axes
+- scale described within the description
+- type of plot described
 
 
+FORMULA for alt-text for images (Nightingale, 2020)
+
+## alt = `"chart_type"` + `"type of data"`  + `"reason for including chart"`  + `"link to data source"`
 
 
+### Resource links
+- https://medium.com/nightingale/writing-alt-text-for-data-visualization-2a218ef43f81
+- https://github.com/dataviza11y/resources/blob/main/README.md
 
 
 
