@@ -1,0 +1,64 @@
+# Accessibility & ggplot 2022-03-22
+
+## Attendance
+
+Present: gwynn, Liz, gary ritchie, Kelli Johnson, Jonathan
+Apologies: 
+
+Introductions:
+
+Goals and ideas:
+    Add words to geom_*() when library(brailleR) is loaded
+    
+    Add +theme_access()  that does something like ggpattern package
+    
+    Notes from slackathon in Feb 2022:
+    If brailleR is loaded, then VI.ggplot will be doing actions on ggplot object that is printed/plotted.
+brailleR::VI.ggplot() will look for breadcrumbs, create any that don't exist and ultimately aggregate the full set of breadcrumbs.Each layer of any ggplot would need to be handled so that a common breadcrumb identifier is generated.
+What would a consist extra item look like? Should it be a text string?
+We think yes!
+How do we augment the ggplot object layer by layer...
+
+Need to know:
+    How to describe the shape of a curve produced by geom_smooth() when it's a curve
+Describe the axis, range of axises, metadata
+A way to push the fig.cap to fig.alt - 
+Add a verbose = TRUE to include all information and verbose = FALSE to have less information regarding x and y labels and such. 
+It is not accessible if it just reads axises. 
+BrailleR - should students be given answers to questions through the package? Is the question accessible?
+
+What kinds of questions do experienced blind users ask?
+Goes up then down, how long does it go up, how steeply, level for awhile go 
+Monotonic, big picture turning points, geom_smooth() had 17 turning points - wobbling around but pretty flat - default settings are not doing what we want - monotonically 
+Count number of inflection points to see if it wobbles too much
+If you cannot explain the figure contextually in a few words then you probably should not be using the figure.
+
+A range of how would you describe this graph?
+
+Depends on the audience, Liz and Jonathan want something different then a first year uni student
+Beginner, intermediate, and advanced
+
+Not factual - girl with red dress in Schindler's list - movie was in black and white
+
+geom_theme() for ggplot had grey background and white grid lines
+
+twitter - most important parts come out b/c of constraint - unconstrainted has lots of words but not helpful,
+
+June - tidyTuesday - accesibility coming in June. 
+
+Before and after tidyTuesday to see the differences
+
+References
+(ggplot2 reference is here https://ggplot2.tidyverse.org/reference/index.html)
+
+LH: The GitHub repo for my talk with SIlvia Canelón on data visualization alt-text is here: https://github.com/spcanelon/csvConf2021
+
+
+***Actions:
+    Jonathan - reduce verbosity, and level of compression, factual/subjective - for brailleR / experience
+
+gwynn - comprehensive list of ggplot2 - twitter - LinkedIn - crowdsource - research crowdsourcing 
+Kelli - Alison Horst - graphic to engage
+Gary - talk JJ and Hadley
+
+Next meeting - 4 weeks today
